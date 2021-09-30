@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: red; */
+    ;
+}
+
+#background {
+    /* background-color: red; */
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#output {
+    margin-top: 70px;
+    margin-left: 15%;
+    width: 70%;
+    height: 100%;
+    box-shadow: 0px 6px 20px #ddd;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+
+.price {
+    margin-top: 25px;
+    /* margin-left: 30%; */
+    text-align: center;
+    flex-wrap: wrap;
+    /* margin-right: 30%; */
+}
+
+.tittle {
+    letter-spacing: 2px;
+    margin-top: 25px;
+    width: 100%;
+    /* margin-left: 30%; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.image {
+    margin-top: 25px;
+    /* width: 100%; */
+    /* margin-left: 30%; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.description {
+    margin-top: 25px;
+    width: 100%;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    /* margin-left: 30%; */
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+#ids {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.bg-image {
+    /* The image used */
+    background-image: url("photographer.jpg");
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    /* Full height */
+    height: 100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
